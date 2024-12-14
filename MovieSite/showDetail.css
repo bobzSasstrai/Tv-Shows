@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #6200ea;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #6200ea;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #6200ea;
+}
+
+a:hover {
+    background-color: #6200ea;
+    color: white;
+}
+
+a:active {
+    background-color: #3700b3;
+}
+
+
+.show-detail {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.show-detail h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+
+.show-detail img {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto 20px;
+    display: block;
+    border-radius: 8px;
+}
+
+
+.show-detail .description-box {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.show-detail .description-box p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.show-detail .genres {
+    margin-top: 20px;
+}
+
+.show-detail .genres span {
+    background-color: #6200ea;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+
+.show-detail .episodes {
+    margin-top: 30px;
+}
+
+.show-detail .episode {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.show-detail .episode h4 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.show-detail .episode p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.show-detail .episode img {
+    max-width: 150px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.show-detail .episode-content {
+    display: flex;
+    gap: 15px;
+}
+
+.show-detail .episode-description {
+    flex-grow: 1;
+}
